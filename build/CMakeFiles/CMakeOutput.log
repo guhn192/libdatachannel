@@ -1,0 +1,1159 @@
+The system is: Linux - 5.15.0-92-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ae952/fast && /usr/bin/make -f CMakeFiles/cmTC_ae952.dir/build.make CMakeFiles/cmTC_ae952.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ae952.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ae952.dir/testCXXCompiler.cxx.o -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ae952
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae952.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_ae952.dir/testCXXCompiler.cxx.o  -o cmTC_ae952 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_749e3/fast && /usr/bin/make -f CMakeFiles/cmTC_749e3.dir/build.make CMakeFiles/cmTC_749e3.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cckYZ5LI.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o /tmp/cckYZ5LI.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_749e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_749e3.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_749e3 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_749e3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4EpvOb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_749e3 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_749e3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_749e3/fast && /usr/bin/make -f CMakeFiles/cmTC_749e3.dir/build.make CMakeFiles/cmTC_749e3.dir/build]
+  ignore line: [make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cckYZ5LI.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o /tmp/cckYZ5LI.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_749e3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_749e3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_749e3 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_749e3' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4EpvOb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_749e3 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4EpvOb.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_749e3] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_749e3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8bd7e/fast && /usr/bin/make -f CMakeFiles/cmTC_8bd7e.dir/build.make CMakeFiles/cmTC_8bd7e.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8bd7e.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_8bd7e.dir/CheckIncludeFile.cxx.o -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_8bd7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bd7e.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_8bd7e.dir/CheckIncludeFile.cxx.o  -o cmTC_8bd7e 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d500c/fast && /usr/bin/make -f CMakeFiles/cmTC_d500c.dir/build.make CMakeFiles/cmTC_d500c.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d500c.dir/testCCompiler.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_d500c.dir/testCCompiler.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d500c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d500c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d500c.dir/testCCompiler.c.o  -o cmTC_d500c 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c3ab8/fast && /usr/bin/make -f CMakeFiles/cmTC_c3ab8.dir/build.make CMakeFiles/cmTC_c3ab8.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o -version -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccpiDUi2.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o /tmp/ccpiDUi2.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_c3ab8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3ab8.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o  -o cmTC_c3ab8 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3ab8' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsC0DEu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c3ab8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3ab8' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_c3ab8/fast && /usr/bin/make -f CMakeFiles/cmTC_c3ab8.dir/build.make CMakeFiles/cmTC_c3ab8.dir/build]
+  ignore line: [make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o -version -fPIE -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccpiDUi2.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o /tmp/ccpiDUi2.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_c3ab8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3ab8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o  -o cmTC_c3ab8 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3ab8' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsC0DEu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c3ab8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccsC0DEu.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c3ab8] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_c3ab8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if files sys/queue.h exist passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e06bc/fast && /usr/bin/make -f CMakeFiles/cmTC_e06bc.dir/build.make CMakeFiles/cmTC_e06bc.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e06bc.dir/have_sys_queue_h.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_e06bc.dir/have_sys_queue_h.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckIncludeFiles/have_sys_queue_h.c
+Linking C executable cmTC_e06bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e06bc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e06bc.dir/have_sys_queue_h.c.o  -o cmTC_e06bc 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/socket.h;linux/if_addr.h exist passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a8e75/fast && /usr/bin/make -f CMakeFiles/cmTC_a8e75.dir/build.make CMakeFiles/cmTC_a8e75.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8e75.dir/have_linux_if_addr_h.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_a8e75.dir/have_linux_if_addr_h.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckIncludeFiles/have_linux_if_addr_h.c
+Linking C executable cmTC_a8e75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8e75.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a8e75.dir/have_linux_if_addr_h.c.o  -o cmTC_a8e75 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/socket.h;linux/rtnetlink.h exist passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_06e19/fast && /usr/bin/make -f CMakeFiles/cmTC_06e19.dir/build.make CMakeFiles/cmTC_06e19.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06e19.dir/have_linux_rtnetlink_h.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_06e19.dir/have_linux_rtnetlink_h.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckIncludeFiles/have_linux_rtnetlink_h.c
+Linking C executable cmTC_06e19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06e19.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_06e19.dir/have_linux_rtnetlink_h.c.o  -o cmTC_06e19 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;netinet/in.h;netinet/ip.h;netinet/ip_icmp.h exist passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_85913/fast && /usr/bin/make -f CMakeFiles/cmTC_85913.dir/build.make CMakeFiles/cmTC_85913.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85913.dir/have_netinet_ip_icmp_h.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_85913.dir/have_netinet_ip_icmp_h.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckIncludeFiles/have_netinet_ip_icmp_h.c
+Linking C executable cmTC_85913
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85913.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_85913.dir/have_netinet_ip_icmp_h.c.o  -o cmTC_85913 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;sys/socket.h;net/route.h exist passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_72d82/fast && /usr/bin/make -f CMakeFiles/cmTC_72d82.dir/build.make CMakeFiles/cmTC_72d82.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72d82.dir/have_net_route_h.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_72d82.dir/have_net_route_h.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckIncludeFiles/have_net_route_h.c
+Linking C executable cmTC_72d82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72d82.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_72d82.dir/have_net_route_h.c.o  -o cmTC_72d82 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0cdf2/fast && /usr/bin/make -f CMakeFiles/cmTC_0cdf2.dir/build.make CMakeFiles/cmTC_0cdf2.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0cdf2.dir/have_stdatomic_h.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_0cdf2.dir/have_stdatomic_h.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckIncludeFiles/have_stdatomic_h.c
+Linking C executable cmTC_0cdf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cdf2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0cdf2.dir/have_stdatomic_h.c.o  -o cmTC_0cdf2 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file usrsctp.h exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_93025/fast && /usr/bin/make -f CMakeFiles/cmTC_93025.dir/build.make CMakeFiles/cmTC_93025.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93025.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/hgh/projects/webrtc_encoding/libdatachannel/deps/usrsctp/usrsctplib  -fPIE   -o CMakeFiles/cmTC_93025.dir/CheckIncludeFile.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_93025
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93025.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_93025.dir/CheckIncludeFile.c.o  -o cmTC_93025 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test has_wfloat_equal succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_89d8a/fast && /usr/bin/make -f CMakeFiles/cmTC_89d8a.dir/build.make CMakeFiles/cmTC_89d8a.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89d8a.dir/src.c.o
+/usr/bin/cc  -I/home/hgh/projects/webrtc_encoding/libdatachannel/deps/usrsctp/usrsctplib  -std=c99 -pedantic -Wall -Wextra -Dhas_wfloat_equal -fPIE   -Wfloat-equal -o CMakeFiles/cmTC_89d8a.dir/src.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_89d8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89d8a.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Dhas_wfloat_equal    -rdynamic CMakeFiles/cmTC_89d8a.dir/src.c.o  -o cmTC_89d8a 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wshadow succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8ffd0/fast && /usr/bin/make -f CMakeFiles/cmTC_8ffd0.dir/build.make CMakeFiles/cmTC_8ffd0.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ffd0.dir/src.c.o
+/usr/bin/cc  -I/home/hgh/projects/webrtc_encoding/libdatachannel/deps/usrsctp/usrsctplib  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Dhas_wshadow -fPIE   -Wshadow -o CMakeFiles/cmTC_8ffd0.dir/src.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8ffd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ffd0.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Dhas_wshadow    -rdynamic CMakeFiles/cmTC_8ffd0.dir/src.c.o  -o cmTC_8ffd0 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wpointer_aritih succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7b54f/fast && /usr/bin/make -f CMakeFiles/cmTC_7b54f.dir/build.make CMakeFiles/cmTC_7b54f.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b54f.dir/src.c.o
+/usr/bin/cc  -I/home/hgh/projects/webrtc_encoding/libdatachannel/deps/usrsctp/usrsctplib  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Dhas_wpointer_aritih -fPIE   -Wpointer-arith -o CMakeFiles/cmTC_7b54f.dir/src.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7b54f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b54f.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Dhas_wpointer_aritih    -rdynamic CMakeFiles/cmTC_7b54f.dir/src.c.o  -o cmTC_7b54f 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wunreachable_code succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ef8ca/fast && /usr/bin/make -f CMakeFiles/cmTC_ef8ca.dir/build.make CMakeFiles/cmTC_ef8ca.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef8ca.dir/src.c.o
+/usr/bin/cc  -I/home/hgh/projects/webrtc_encoding/libdatachannel/deps/usrsctp/usrsctplib  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Dhas_wunreachable_code -fPIE   -Wunreachable-code -o CMakeFiles/cmTC_ef8ca.dir/src.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ef8ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef8ca.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Dhas_wunreachable_code    -rdynamic CMakeFiles/cmTC_ef8ca.dir/src.c.o  -o cmTC_ef8ca 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_winit_self succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75471/fast && /usr/bin/make -f CMakeFiles/cmTC_75471.dir/build.make CMakeFiles/cmTC_75471.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75471.dir/src.c.o
+/usr/bin/cc  -I/home/hgh/projects/webrtc_encoding/libdatachannel/deps/usrsctp/usrsctplib  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Dhas_winit_self -fPIE   -Winit-self -o CMakeFiles/cmTC_75471.dir/src.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_75471
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75471.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Dhas_winit_self    -rdynamic CMakeFiles/cmTC_75471.dir/src.c.o  -o cmTC_75471 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wno_unused_function succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6192e/fast && /usr/bin/make -f CMakeFiles/cmTC_6192e.dir/build.make CMakeFiles/cmTC_6192e.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6192e.dir/src.c.o
+/usr/bin/cc  -I/home/hgh/projects/webrtc_encoding/libdatachannel/deps/usrsctp/usrsctplib  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Dhas_wno_unused_function -fPIE   -Wno-unused-function -o CMakeFiles/cmTC_6192e.dir/src.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6192e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6192e.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Dhas_wno_unused_function    -rdynamic CMakeFiles/cmTC_6192e.dir/src.c.o  -o cmTC_6192e 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wno_unused_parameter succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cd380/fast && /usr/bin/make -f CMakeFiles/cmTC_cd380.dir/build.make CMakeFiles/cmTC_cd380.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd380.dir/src.c.o
+/usr/bin/cc  -I/home/hgh/projects/webrtc_encoding/libdatachannel/deps/usrsctp/usrsctplib  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Dhas_wno_unused_parameter -fPIE   -Wno-unused-parameter -o CMakeFiles/cmTC_cd380.dir/src.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cd380
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd380.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Dhas_wno_unused_parameter    -rdynamic CMakeFiles/cmTC_cd380.dir/src.c.o  -o cmTC_cd380 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wno_unreachable_code succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c959/fast && /usr/bin/make -f CMakeFiles/cmTC_1c959.dir/build.make CMakeFiles/cmTC_1c959.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c959.dir/src.c.o
+/usr/bin/cc  -I/home/hgh/projects/webrtc_encoding/libdatachannel/deps/usrsctp/usrsctplib  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Dhas_wno_unreachable_code -fPIE   -Wno-unreachable-code -o CMakeFiles/cmTC_1c959.dir/src.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1c959
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c959.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Dhas_wno_unreachable_code    -rdynamic CMakeFiles/cmTC_1c959.dir/src.c.o  -o cmTC_1c959 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wstrict_prototypes succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8abd/fast && /usr/bin/make -f CMakeFiles/cmTC_e8abd.dir/build.make CMakeFiles/cmTC_e8abd.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8abd.dir/src.c.o
+/usr/bin/cc  -I/home/hgh/projects/webrtc_encoding/libdatachannel/deps/usrsctp/usrsctplib  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Dhas_wstrict_prototypes -fPIE   -Wstrict-prototypes -o CMakeFiles/cmTC_e8abd.dir/src.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e8abd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8abd.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Dhas_wstrict_prototypes    -rdynamic CMakeFiles/cmTC_e8abd.dir/src.c.o  -o cmTC_e8abd 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wno_address_of_packed_member succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a49cd/fast && /usr/bin/make -f CMakeFiles/cmTC_a49cd.dir/build.make CMakeFiles/cmTC_a49cd.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a49cd.dir/src.c.o
+/usr/bin/cc  -I/home/hgh/projects/webrtc_encoding/libdatachannel/deps/usrsctp/usrsctplib  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes -Dhas_wno_address_of_packed_member -fPIE   -Wno-address-of-packed-member -o CMakeFiles/cmTC_a49cd.dir/src.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a49cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a49cd.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes -Dhas_wno_address_of_packed_member    -rdynamic CMakeFiles/cmTC_a49cd.dir/src.c.o  -o cmTC_a49cd 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test has_wno_deprecated_declarations succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f89f8/fast && /usr/bin/make -f CMakeFiles/cmTC_f89f8.dir/build.make CMakeFiles/cmTC_f89f8.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f89f8.dir/src.c.o
+/usr/bin/cc  -I/home/hgh/projects/webrtc_encoding/libdatachannel/deps/usrsctp/usrsctplib  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes -Wno-address-of-packed-member -Dhas_wno_deprecated_declarations -fPIE   -Wno-deprecated-declarations -o CMakeFiles/cmTC_f89f8.dir/src.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f89f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f89f8.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes -Wno-address-of-packed-member -Dhas_wno_deprecated_declarations    -rdynamic CMakeFiles/cmTC_f89f8.dir/src.c.o  -o cmTC_f89f8 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f4115/fast && /usr/bin/make -f CMakeFiles/cmTC_f4115.dir/build.make CMakeFiles/cmTC_f4115.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4115.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_f4115.dir/CheckIncludeFile.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f4115
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4115.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f4115.dir/CheckIncludeFile.c.o  -o cmTC_f4115 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_89541/fast && /usr/bin/make -f CMakeFiles/cmTC_89541.dir/build.make CMakeFiles/cmTC_89541.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89541.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_89541.dir/CheckIncludeFile.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_89541
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89541.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_89541.dir/CheckIncludeFile.c.o  -o cmTC_89541 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9bcd9/fast && /usr/bin/make -f CMakeFiles/cmTC_9bcd9.dir/build.make CMakeFiles/cmTC_9bcd9.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9bcd9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_9bcd9.dir/CheckIncludeFile.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9bcd9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bcd9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9bcd9.dir/CheckIncludeFile.c.o  -o cmTC_9bcd9 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8f9c5/fast && /usr/bin/make -f CMakeFiles/cmTC_8f9c5.dir/build.make CMakeFiles/cmTC_8f9c5.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f9c5.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_8f9c5.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_8f9c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f9c5.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8f9c5.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_8f9c5 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_95f22/fast && /usr/bin/make -f CMakeFiles/cmTC_95f22.dir/build.make CMakeFiles/cmTC_95f22.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95f22.dir/TestEndianess.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_95f22.dir/TestEndianess.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_95f22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95f22.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_95f22.dir/TestEndianess.c.o  -o cmTC_95f22 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_30b6c/fast && /usr/bin/make -f CMakeFiles/cmTC_30b6c.dir/build.make CMakeFiles/cmTC_30b6c.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30b6c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_30b6c.dir/CheckIncludeFile.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_30b6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30b6c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_30b6c.dir/CheckIncludeFile.c.o  -o cmTC_30b6c 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file byteswap.h exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ff5d4/fast && /usr/bin/make -f CMakeFiles/cmTC_ff5d4.dir/build.make CMakeFiles/cmTC_ff5d4.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff5d4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_ff5d4.dir/CheckIncludeFile.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ff5d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff5d4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ff5d4.dir/CheckIncludeFile.c.o  -o cmTC_ff5d4 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6272/fast && /usr/bin/make -f CMakeFiles/cmTC_d6272.dir/build.make CMakeFiles/cmTC_d6272.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6272.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_d6272.dir/CheckIncludeFile.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d6272
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6272.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d6272.dir/CheckIncludeFile.c.o  -o cmTC_d6272 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_360c4/fast && /usr/bin/make -f CMakeFiles/cmTC_360c4.dir/build.make CMakeFiles/cmTC_360c4.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_360c4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_360c4.dir/CheckIncludeFile.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_360c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_360c4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_360c4.dir/CheckIncludeFile.c.o  -o cmTC_360c4 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81269/fast && /usr/bin/make -f CMakeFiles/cmTC_81269.dir/build.make CMakeFiles/cmTC_81269.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81269.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_81269.dir/CheckIncludeFile.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_81269
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81269.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_81269.dir/CheckIncludeFile.c.o  -o cmTC_81269 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e4334/fast && /usr/bin/make -f CMakeFiles/cmTC_e4334.dir/build.make CMakeFiles/cmTC_e4334.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4334.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_e4334.dir/CheckIncludeFile.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e4334
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4334.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e4334.dir/CheckIncludeFile.c.o  -o cmTC_e4334 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa078/fast && /usr/bin/make -f CMakeFiles/cmTC_aa078.dir/build.make CMakeFiles/cmTC_aa078.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa078.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_aa078.dir/CheckIncludeFile.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_aa078
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa078.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_aa078.dir/CheckIncludeFile.c.o  -o cmTC_aa078 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ab1b/fast && /usr/bin/make -f CMakeFiles/cmTC_9ab1b.dir/build.make CMakeFiles/cmTC_9ab1b.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ab1b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction -fPIE   -o CMakeFiles/cmTC_9ab1b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9ab1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ab1b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction    CMakeFiles/cmTC_9ab1b.dir/CheckFunctionExists.c.o  -o cmTC_9ab1b 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function inet_aton exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_28f53/fast && /usr/bin/make -f CMakeFiles/cmTC_28f53.dir/build.make CMakeFiles/cmTC_28f53.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28f53.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_aton -fPIE   -o CMakeFiles/cmTC_28f53.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_28f53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28f53.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=inet_aton    CMakeFiles/cmTC_28f53.dir/CheckFunctionExists.c.o  -o cmTC_28f53 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8eef1/fast && /usr/bin/make -f CMakeFiles/cmTC_8eef1.dir/build.make CMakeFiles/cmTC_8eef1.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8eef1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_pton -fPIE   -o CMakeFiles/cmTC_8eef1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8eef1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8eef1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=inet_pton    CMakeFiles/cmTC_8eef1.dir/CheckFunctionExists.c.o  -o cmTC_8eef1 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function usleep exists passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b28f1/fast && /usr/bin/make -f CMakeFiles/cmTC_b28f1.dir/build.make CMakeFiles/cmTC_b28f1.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b28f1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=usleep -fPIE   -o CMakeFiles/cmTC_b28f1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b28f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b28f1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=usleep    CMakeFiles/cmTC_b28f1.dir/CheckFunctionExists.c.o  -o cmTC_b28f1 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5db3c/fast && /usr/bin/make -f CMakeFiles/cmTC_5db3c.dir/build.make CMakeFiles/cmTC_5db3c.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5db3c.dir/UINT8_T.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_5db3c.dir/UINT8_T.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckTypeSize/UINT8_T.c
+Linking C executable cmTC_5db3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5db3c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5db3c.dir/UINT8_T.c.o  -o cmTC_5db3c 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c66e6/fast && /usr/bin/make -f CMakeFiles/cmTC_c66e6.dir/build.make CMakeFiles/cmTC_c66e6.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c66e6.dir/UINT16_T.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_c66e6.dir/UINT16_T.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckTypeSize/UINT16_T.c
+Linking C executable cmTC_c66e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c66e6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c66e6.dir/UINT16_T.c.o  -o cmTC_c66e6 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_452bd/fast && /usr/bin/make -f CMakeFiles/cmTC_452bd.dir/build.make CMakeFiles/cmTC_452bd.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_452bd.dir/UINT32_T.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_452bd.dir/UINT32_T.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckTypeSize/UINT32_T.c
+Linking C executable cmTC_452bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_452bd.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_452bd.dir/UINT32_T.c.o  -o cmTC_452bd 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_af668/fast && /usr/bin/make -f CMakeFiles/cmTC_af668.dir/build.make CMakeFiles/cmTC_af668.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af668.dir/UINT64_T.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_af668.dir/UINT64_T.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckTypeSize/UINT64_T.c
+Linking C executable cmTC_af668
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af668.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_af668.dir/UINT64_T.c.o  -o cmTC_af668 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_214ab/fast && /usr/bin/make -f CMakeFiles/cmTC_214ab.dir/build.make CMakeFiles/cmTC_214ab.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_214ab.dir/INT32_T.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_214ab.dir/INT32_T.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckTypeSize/INT32_T.c
+Linking C executable cmTC_214ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_214ab.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_214ab.dir/INT32_T.c.o  -o cmTC_214ab 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a4929/fast && /usr/bin/make -f CMakeFiles/cmTC_a4929.dir/build.make CMakeFiles/cmTC_a4929.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4929.dir/SIZEOF_UNSIGNED_LONG.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_a4929.dir/SIZEOF_UNSIGNED_LONG.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_a4929
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4929.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a4929.dir/SIZEOF_UNSIGNED_LONG.c.o  -o cmTC_a4929 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c3ef/fast && /usr/bin/make -f CMakeFiles/cmTC_1c3ef.dir/build.make CMakeFiles/cmTC_1c3ef.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c3ef.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_1c3ef.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_1c3ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c3ef.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1c3ef.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o  -o cmTC_1c3ef 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5ff7c/fast && /usr/bin/make -f CMakeFiles/cmTC_5ff7c.dir/build.make CMakeFiles/cmTC_5ff7c.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ff7c.dir/src.c.o
+/usr/bin/cc   -DHAVE_INLINE -fPIE   -o CMakeFiles/cmTC_5ff7c.dir/src.c.o   -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5ff7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ff7c.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_INLINE    -rdynamic CMakeFiles/cmTC_5ff7c.dir/src.c.o  -o cmTC_5ff7c 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_84cba/fast && /usr/bin/make -f CMakeFiles/cmTC_84cba.dir/build.make CMakeFiles/cmTC_84cba.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_84cba.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_VISIBILITY -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_84cba.dir/src.cxx.o -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_84cba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84cba.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_VISIBILITY    CMakeFiles/cmTC_84cba.dir/src.cxx.o  -o cmTC_84cba 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c9349/fast && /usr/bin/make -f CMakeFiles/cmTC_c9349.dir/build.make CMakeFiles/cmTC_c9349.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c9349.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_c9349.dir/src.cxx.o -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c9349
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9349.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY    CMakeFiles/cmTC_c9349.dir/src.cxx.o  -o cmTC_c9349 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_972dc/fast && /usr/bin/make -f CMakeFiles/cmTC_972dc.dir/build.make CMakeFiles/cmTC_972dc.dir/build
+make[1]: Entering directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_972dc.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_DEPRECATED_ATTR -fPIE   -o CMakeFiles/cmTC_972dc.dir/src.cxx.o -c /home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx
+/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                                  ^
+/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                                  ^
+/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+Linking CXX executable cmTC_972dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_972dc.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_DEPRECATED_ATTR    CMakeFiles/cmTC_972dc.dir/src.cxx.o  -o cmTC_972dc 
+make[1]: Leaving directory '/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

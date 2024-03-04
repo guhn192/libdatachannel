@@ -1,6 +1,3 @@
-build/
-node_modules/
-output/
 *.d
 *.o
 *.a

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/rtc/rtc.h
+version.h
+../include/rtc/version.h
+stdbool.h
+-
+stdint.h
+-
+
+../include/rtc/version.h
+
+/home/hgh/projects/webrtc_encoding/libdatachannel/examples/copy-paste-capi/getline.h
+malloc.h
+-
+stddef.h
+-
+stdio.h
+-
+
+/home/hgh/projects/webrtc_encoding/libdatachannel/examples/copy-paste-capi/offerer.c
+rtc/rtc.h
+-
+ctype.h
+-
+stdbool.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+getline.h
+/home/hgh/projects/webrtc_encoding/libdatachannel/examples/copy-paste-capi/getline.h
+windows.h
+-
+unistd.h
+-
+

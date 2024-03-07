@@ -385,37 +385,37 @@ usrsctp_OBJECTS = \
 # External object files for target usrsctp
 usrsctp_EXTERNAL_OBJECTS =
 
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_asconf.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_auth.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_bsd_addr.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_callout.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_cc_functions.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_crc32.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_indata.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_input.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_output.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_pcb.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_peeloff.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sha1.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_ss_functions.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sysctl.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_timer.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_userspace.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_usrreq.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctputil.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet6/sctp6_usrreq.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_environment.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_mbuf.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_recv_thread.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_socket.c.o
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/build.make
-deps/usrsctp/usrsctplib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C static library libusrsctp.a"
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_asconf.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_auth.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_bsd_addr.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_callout.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_cc_functions.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_crc32.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_indata.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_input.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_output.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_pcb.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_peeloff.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sha1.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_ss_functions.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sysctl.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_timer.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_userspace.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_usrreq.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctputil.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet6/sctp6_usrreq.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_environment.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_mbuf.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_recv_thread.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_socket.c.o
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/build.make
+lib/libusrsctp.a: deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C static library ../../../lib/libusrsctp.a"
 	cd /home/hgh/projects/webrtc_encoding/libdatachannel/build/deps/usrsctp/usrsctplib && $(CMAKE_COMMAND) -P CMakeFiles/usrsctp.dir/cmake_clean_target.cmake
 	cd /home/hgh/projects/webrtc_encoding/libdatachannel/build/deps/usrsctp/usrsctplib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/usrsctp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/build: deps/usrsctp/usrsctplib/libusrsctp.a
+deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/build: lib/libusrsctp.a
 
 .PHONY : deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/build
 

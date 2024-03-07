@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libsrtp2.a"
+  "../../lib/libsrtp2.a"
 )

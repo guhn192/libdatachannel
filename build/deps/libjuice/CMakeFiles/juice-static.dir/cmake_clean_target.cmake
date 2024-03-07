@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libjuice-static.a"
+  "../../lib/libjuice-static.a"
 )

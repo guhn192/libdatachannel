@@ -11,9 +11,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/datachannel-tests.dir/test/turn_connectivity.cpp.o"
   "CMakeFiles/datachannel-tests.dir/test/websocket.cpp.o"
   "CMakeFiles/datachannel-tests.dir/test/websocketserver.cpp.o"
-  "tests"
-  "tests-0.20.1"
-  "tests.pdb"
+  "bin/tests"
+  "bin/tests-0.20.1"
+  "bin/tests.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "../../bin/offerer"
+  "../../bin/offerer.pdb"
   "CMakeFiles/datachannel-copy-paste-capi-offerer.dir/offerer.c.o"
-  "offerer"
-  "offerer.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../bin/roc_driver"
+  "../../bin/roc_driver.pdb"
   "CMakeFiles/roc_driver.dir/test/roc_driver.c.o"
   "CMakeFiles/roc_driver.dir/test/ut_sim.c.o"
-  "roc_driver"
-  "roc_driver.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

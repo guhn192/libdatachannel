@@ -1,1 +1,1 @@
-/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/datachannel-benchmark.dir/test/benchmark.cpp.o  -o benchmark-0.20.1  -Wl,-rpath,/home/hgh/projects/webrtc_encoding/libdatachannel/build libdatachannel.so.0.20.1 -pthread 
+/usr/bin/c++   -fPIC -O3 -O3 -DNDEBUG   CMakeFiles/datachannel-benchmark.dir/test/benchmark.cpp.o  -o bin/benchmark-0.20.1  -Wl,-rpath,/home/hgh/projects/webrtc_encoding/libdatachannel/build/lib lib/libdatachannel.so.0.20.1 -pthread 

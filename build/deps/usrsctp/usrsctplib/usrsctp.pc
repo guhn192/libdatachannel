@@ -1,7 +1,7 @@
-prefix=/usr/local
-exec_prefix=/usr/local
-libdir=/usr/local/lib
-includedir=/usr/local/include
+prefix=/home/hgh/projects/webrtc_encoding/libdatachannel/build/install
+exec_prefix=/home/hgh/projects/webrtc_encoding/libdatachannel/build/install
+libdir=/home/hgh/projects/webrtc_encoding/libdatachannel/build/install/lib
+includedir=/home/hgh/projects/webrtc_encoding/libdatachannel/build/install/include
 
 Name: usrsctp
 Description: SCTP implementation

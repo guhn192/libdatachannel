@@ -1,1 +1,1 @@
-/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/datachannel-copy-paste-offerer.dir/offerer.cpp.o  -o offerer  -Wl,-rpath,/home/hgh/projects/webrtc_encoding/libdatachannel/build ../../libdatachannel.so.0.20.1 
+/usr/bin/c++   -fPIC -O3 -O3 -DNDEBUG   CMakeFiles/datachannel-copy-paste-offerer.dir/offerer.cpp.o  -o ../../bin/offerer  -Wl,-rpath,/home/hgh/projects/webrtc_encoding/libdatachannel/build/lib ../../lib/libdatachannel.so.0.20.1 

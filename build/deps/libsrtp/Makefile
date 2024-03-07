@@ -80,6 +80,16 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -92,16 +102,27 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	cd /home/hgh/projects/webrtc_encoding/libdatachannel/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/hgh/projects/webrtc_encoding/libdatachannel/build/CPackSourceConfig.cmake
+.PHONY : package_source
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
+# Special rule for the target package_source
+package_source/fast: package_source
 
-.PHONY : edit_cache/fast
+.PHONY : package_source/fast
+
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /home/hgh/projects/webrtc_encoding/libdatachannel/build && /usr/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -114,15 +135,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
 
-.PHONY : list_install_components/fast
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -202,21 +224,6 @@ srtp_driver/fast:
 .PHONY : srtp_driver/fast
 
 # Convenience name for target.
-deps/libsrtp/CMakeFiles/test_srtp.dir/rule:
-	cd /home/hgh/projects/webrtc_encoding/libdatachannel/build && $(MAKE) -f CMakeFiles/Makefile2 deps/libsrtp/CMakeFiles/test_srtp.dir/rule
-.PHONY : deps/libsrtp/CMakeFiles/test_srtp.dir/rule
-
-# Convenience name for target.
-test_srtp: deps/libsrtp/CMakeFiles/test_srtp.dir/rule
-
-.PHONY : test_srtp
-
-# fast build rule for target.
-test_srtp/fast:
-	cd /home/hgh/projects/webrtc_encoding/libdatachannel/build && $(MAKE) -f deps/libsrtp/CMakeFiles/test_srtp.dir/build.make deps/libsrtp/CMakeFiles/test_srtp.dir/build
-.PHONY : test_srtp/fast
-
-# Convenience name for target.
 deps/libsrtp/CMakeFiles/kernel_driver.dir/rule:
 	cd /home/hgh/projects/webrtc_encoding/libdatachannel/build && $(MAKE) -f CMakeFiles/Makefile2 deps/libsrtp/CMakeFiles/kernel_driver.dir/rule
 .PHONY : deps/libsrtp/CMakeFiles/kernel_driver.dir/rule
@@ -245,6 +252,21 @@ replay_driver: deps/libsrtp/CMakeFiles/replay_driver.dir/rule
 replay_driver/fast:
 	cd /home/hgh/projects/webrtc_encoding/libdatachannel/build && $(MAKE) -f deps/libsrtp/CMakeFiles/replay_driver.dir/build.make deps/libsrtp/CMakeFiles/replay_driver.dir/build
 .PHONY : replay_driver/fast
+
+# Convenience name for target.
+deps/libsrtp/CMakeFiles/test_srtp.dir/rule:
+	cd /home/hgh/projects/webrtc_encoding/libdatachannel/build && $(MAKE) -f CMakeFiles/Makefile2 deps/libsrtp/CMakeFiles/test_srtp.dir/rule
+.PHONY : deps/libsrtp/CMakeFiles/test_srtp.dir/rule
+
+# Convenience name for target.
+test_srtp: deps/libsrtp/CMakeFiles/test_srtp.dir/rule
+
+.PHONY : test_srtp
+
+# fast build rule for target.
+test_srtp/fast:
+	cd /home/hgh/projects/webrtc_encoding/libdatachannel/build && $(MAKE) -f deps/libsrtp/CMakeFiles/test_srtp.dir/build.make deps/libsrtp/CMakeFiles/test_srtp.dir/build
+.PHONY : test_srtp/fast
 
 # Convenience name for target.
 deps/libsrtp/CMakeFiles/rdbx_driver.dir/rule:
@@ -1148,20 +1170,22 @@ help:
 	@echo "... depend"
 	@echo "... install/local"
 	@echo "... install"
+	@echo "... list_install_components"
 	@echo "... install/strip"
 	@echo "... srtp2"
 	@echo "... datatypes_driver"
 	@echo "... srtp_driver"
-	@echo "... test_srtp"
 	@echo "... kernel_driver"
 	@echo "... replay_driver"
+	@echo "... test_srtp"
+	@echo "... package_source"
 	@echo "... rdbx_driver"
 	@echo "... roc_driver"
 	@echo "... rtpw"
+	@echo "... package"
+	@echo "... rebuild_cache"
 	@echo "... cipher_driver"
 	@echo "... edit_cache"
-	@echo "... rebuild_cache"
-	@echo "... list_install_components"
 	@echo "... crypto/cipher/aes_gcm_ossl.o"
 	@echo "... crypto/cipher/aes_gcm_ossl.i"
 	@echo "... crypto/cipher/aes_gcm_ossl.s"

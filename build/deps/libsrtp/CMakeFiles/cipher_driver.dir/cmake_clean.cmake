@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../bin/cipher_driver"
+  "../../bin/cipher_driver.pdb"
   "CMakeFiles/cipher_driver.dir/crypto/test/cipher_driver.c.o"
   "CMakeFiles/cipher_driver.dir/test/getopt_s.c.o"
-  "cipher_driver"
-  "cipher_driver.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

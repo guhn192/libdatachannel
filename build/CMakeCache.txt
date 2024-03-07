@@ -17,6 +17,9 @@
 //Path to a program.
 BASH_PROGRAM:FILEPATH=/usr/bin/bash
 
+//Build examples
+BUILD_EXAMPLES:BOOL=ON
+
 //Adds sanitizer flags to compiler
 BUILD_WITH_SANITIZERS:BOOL=OFF
 
@@ -320,6 +323,9 @@ FUZZER:BOOL=OFF
 //INTERNAL
 GCM:BOOL=ON
 
+//Install libudev
+INSTALL_LIBUDEV:BOOL=OFF
+
 //Enable CI build targets.
 JSON_CI:BOOL=OFF
 
@@ -347,6 +353,9 @@ JSON_MultipleHeaders:BOOL=ON
 //Include as system headers (skip for clang-tidy).
 JSON_SystemInclude:BOOL=OFF
 
+//No help, variable specified on the command line.
+LibDataChannel_DIR:UNINITIALIZED=/path/to/libdatachannel/config
+
 //Disable examples
 NO_EXAMPLES:BOOL=OFF
 
@@ -365,6 +374,156 @@ NO_TESTS:BOOL=OFF
 //Disable WebSocket support
 NO_WEBSOCKET:BOOL=OFF
 
+//Value Computed by CMake
+OBColorViewer_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-ColorViewer
+
+//Value Computed by CMake
+OBColorViewer_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-ColorViewer
+
+//Value Computed by CMake
+OBCommonUsages_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-CommonUsages
+
+//Value Computed by CMake
+OBCommonUsages_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-CommonUsages
+
+//Value Computed by CMake
+OBDepthPrecisionViewer_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-DepthPrecisionViewer
+
+//Value Computed by CMake
+OBDepthPrecisionViewer_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-DepthPrecisionViewer
+
+//Value Computed by CMake
+OBDepthViewer_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-DepthViewer
+
+//Value Computed by CMake
+OBDepthViewer_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-DepthViewer
+
+//Value Computed by CMake
+OBDepthWorkMode_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-DepthWorkMode
+
+//Value Computed by CMake
+OBDepthWorkMode_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-DepthWorkMode
+
+//Value Computed by CMake
+OBDoubleInfraredViewer_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-DoubleInfraredViewer
+
+//Value Computed by CMake
+OBDoubleInfraredViewer_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-DoubleInfraredViewer
+
+//Value Computed by CMake
+OBFirmwareUpgrade_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-FirmwareUpgrade
+
+//Value Computed by CMake
+OBFirmwareUpgrade_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-FirmwareUpgrade
+
+//Value Computed by CMake
+OBHelloOrbbec_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-HelloOrbbec
+
+//Value Computed by CMake
+OBHelloOrbbec_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-HelloOrbbec
+
+//Value Computed by CMake
+OBHotPlugin_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-HotPlugin
+
+//Value Computed by CMake
+OBHotPlugin_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-HotPlugin
+
+//Value Computed by CMake
+OBInfraredViewer_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-InfraredViewer
+
+//Value Computed by CMake
+OBInfraredViewer_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-InfraredViewer
+
+//Value Computed by CMake
+OBMultiDeviceSync_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-MultiDeviceSync
+
+//Value Computed by CMake
+OBMultiDeviceSync_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-MultiDeviceSync
+
+//Value Computed by CMake
+OBMultiDevice_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-MultiDevice
+
+//Value Computed by CMake
+OBMultiDevice_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-MultiDevice
+
+//Value Computed by CMake
+OBMultiStream_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-MultiStream
+
+//Value Computed by CMake
+OBMultiStream_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-MultiStream
+
+//Value Computed by CMake
+OBNetDevice_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-NetDevice
+
+//Value Computed by CMake
+OBNetDevice_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-NetDevice
+
+//Value Computed by CMake
+OBOBImuReader_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-ImuReader
+
+//Value Computed by CMake
+OBOBImuReader_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-ImuReader
+
+//Value Computed by CMake
+OBPlayback_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-Playback
+
+//Value Computed by CMake
+OBPlayback_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-Playback
+
+//Value Computed by CMake
+OBPointCloud_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-PointCloud
+
+//Value Computed by CMake
+OBPointCloud_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-PointCloud
+
+//Value Computed by CMake
+OBPracticeDepthEncoding_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Practice-DepthEncoding
+
+//Value Computed by CMake
+OBPracticeDepthEncoding_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Practice-DepthEncoding
+
+//Value Computed by CMake
+OBPracticeDepthStream_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Practice-DepthStream
+
+//Value Computed by CMake
+OBPracticeDepthStream_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Practice-DepthStream
+
+//Value Computed by CMake
+OBPracticeSingleStream_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Practice-SingleStream
+
+//Value Computed by CMake
+OBPracticeSingleStream_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Practice-SingleStream
+
+//Value Computed by CMake
+OBRecorder_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-Recorder
+
+//Value Computed by CMake
+OBRecorder_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-Recorder
+
+//Value Computed by CMake
+OBSaveToDisk_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-SaveToDisk
+
+//Value Computed by CMake
+OBSaveToDisk_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-SaveToDisk
+
+//Value Computed by CMake
+OBSensorControl_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-SensorControl
+
+//Value Computed by CMake
+OBSensorControl_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-SensorControl
+
+//Value Computed by CMake
+OBSyncAlignViewer_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-SyncAlignViewer
+
+//Value Computed by CMake
+OBSyncAlignViewer_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-SyncAlignViewer
+
+//Value Computed by CMake
+OBTransformation_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cpp/Sample-Transformation
+
+//Value Computed by CMake
+OBTransformation_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/cpp/Sample-Transformation
+
 //INTERNAL
 OPENSSL:BOOL=ON
 
@@ -376,6 +535,15 @@ OPENSSL_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
 OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+
+//The directory containing a CMake configuration file for OpenCV.
+OpenCV_DIR:PATH=/usr/local/lib/cmake/opencv4
+
+//Value Computed by CMake
+OrbbecSDK-Samples_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples
+
+//Value Computed by CMake
+OrbbecSDK-Samples_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples
 
 //Path to a file.
 PCAP_INCLUDE_DIR_TEMP:PATH=PCAP_INCLUDE_DIR_TEMP-NOTFOUND
@@ -437,6 +605,18 @@ USE_SYSTEM_USRSCTP:BOOL=OFF
 //Treat warnings as errors
 WARNINGS_AS_ERRORS:BOOL=OFF
 
+//Value Computed by CMake
+datachannel-media-sender-orbbec_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/media-sender-orbbec
+
+//Value Computed by CMake
+datachannel-media-sender-orbbec_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/media-sender-orbbec
+
+//Value Computed by CMake
+datachannel-media-sensor-orbbec_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/media-sender-orbbec
+
+//Value Computed by CMake
+datachannel-media-sensor-orbbec_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/media-sender-orbbec
+
 //Dependencies for the target
 datachannel-static_LIB_DEPENDS:STATIC=general;Usrsctp::Usrsctp;general;srtp2;general;OpenSSL::SSL;general;LibJuice::LibJuiceStatic;
 
@@ -466,6 +646,72 @@ nlohmann_json_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachanne
 
 //Value Computed by CMake
 nlohmann_json_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/deps/json
+
+//Value Computed by CMake
+ob_color_viewer_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/c/Sample-ColorViewer
+
+//Value Computed by CMake
+ob_color_viewer_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/c/Sample-ColorViewer
+
+//Value Computed by CMake
+ob_depth_viewer_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/c/Sample-DepthViewer
+
+//Value Computed by CMake
+ob_depth_viewer_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/c/Sample-DepthViewer
+
+//Value Computed by CMake
+ob_depth_work_mode_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/c/Sample-DepthWorkMode
+
+//Value Computed by CMake
+ob_depth_work_mode_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/c/Sample-DepthWorkMode
+
+//Value Computed by CMake
+ob_double_infrared_viewer_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/c/Sample-DoubleInfraredViewer
+
+//Value Computed by CMake
+ob_double_infrared_viewer_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/c/Sample-DoubleInfraredViewer
+
+//Value Computed by CMake
+ob_firmware_upgrade_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/c/Sample-FirmwareUpgrade
+
+//Value Computed by CMake
+ob_firmware_upgrade_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/c/Sample-FirmwareUpgrade
+
+//Value Computed by CMake
+ob_hello_orbbec_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/c/Sample-HelloOrbbec
+
+//Value Computed by CMake
+ob_hello_orbbec_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/c/Sample-HelloOrbbec
+
+//Value Computed by CMake
+ob_hot_plugin_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/c/Sample-HotPlugin
+
+//Value Computed by CMake
+ob_hot_plugin_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/c/Sample-HotPlugin
+
+//Value Computed by CMake
+ob_infrared_viewer_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/c/Sample-InfraredViewer
+
+//Value Computed by CMake
+ob_infrared_viewer_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/c/Sample-InfraredViewer
+
+//Value Computed by CMake
+ob_net_device_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/c/Sample-NetDevice
+
+//Value Computed by CMake
+ob_net_device_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/c/Sample-NetDevice
+
+//Value Computed by CMake
+ob_point_cloud_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/c/Sample-PointCloud
+
+//Value Computed by CMake
+ob_point_cloud_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/c/Sample-PointCloud
+
+//Value Computed by CMake
+ob_sensor_control_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/c/Sample-SensorControl
+
+//Value Computed by CMake
+ob_sensor_control_SOURCE_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/examples/c/Sample-SensorControl
 
 //Value Computed by CMake
 offerer_BINARY_DIR:STATIC=/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/copy-paste-capi
@@ -665,7 +911,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=54
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -808,7 +1054,7 @@ UINT8_T:INTERNAL=1
 //Result of TEST_BIG_ENDIAN
 WORDS_BIGENDIAN:INTERNAL=0
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/home/hgh/projects/webrtc_encoding/libdatachannel/build/install
 _OPENSSL_CFLAGS:INTERNAL=
 _OPENSSL_CFLAGS_I:INTERNAL=
 _OPENSSL_CFLAGS_OTHER:INTERNAL=

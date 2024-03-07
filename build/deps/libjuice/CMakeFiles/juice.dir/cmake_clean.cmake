@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "../../lib/libjuice.pdb"
+  "../../lib/libjuice.so"
+  "../../lib/libjuice.so.1.3.4"
   "CMakeFiles/juice.dir/src/addr.c.o"
   "CMakeFiles/juice.dir/src/agent.c.o"
   "CMakeFiles/juice.dir/src/base64.c.o"
@@ -19,9 +22,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/juice.dir/src/timestamp.c.o"
   "CMakeFiles/juice.dir/src/turn.c.o"
   "CMakeFiles/juice.dir/src/udp.c.o"
-  "libjuice.pdb"
-  "libjuice.so"
-  "libjuice.so.1.3.4"
 )
 
 # Per-language clean rules from dependency scanning.

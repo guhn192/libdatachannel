@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "../../bin/test_srtp"
+  "../../bin/test_srtp.pdb"
   "CMakeFiles/test_srtp.dir/test/test_srtp.c.o"
-  "test_srtp"
-  "test_srtp.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "../../lib/libsrtp2.a"
+  "../../lib/libsrtp2.pdb"
   "CMakeFiles/srtp2.dir/crypto/cipher/aes_gcm_ossl.c.o"
   "CMakeFiles/srtp2.dir/crypto/cipher/aes_icm_ossl.c.o"
   "CMakeFiles/srtp2.dir/crypto/cipher/cipher.c.o"
@@ -16,8 +18,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/srtp2.dir/crypto/replay/rdb.c.o"
   "CMakeFiles/srtp2.dir/crypto/replay/rdbx.c.o"
   "CMakeFiles/srtp2.dir/srtp/srtp.c.o"
-  "libsrtp2.a"
-  "libsrtp2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

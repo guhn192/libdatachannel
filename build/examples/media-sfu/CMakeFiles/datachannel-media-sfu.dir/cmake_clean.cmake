@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "../../bin/media-sfu"
+  "../../bin/media-sfu.pdb"
   "CMakeFiles/datachannel-media-sfu.dir/main.cpp.o"
-  "media-sfu"
-  "media-sfu.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

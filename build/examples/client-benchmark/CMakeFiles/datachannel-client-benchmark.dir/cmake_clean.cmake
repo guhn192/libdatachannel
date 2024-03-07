@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../bin/client-benchmark"
+  "../../bin/client-benchmark.pdb"
   "CMakeFiles/datachannel-client-benchmark.dir/main.cpp.o"
   "CMakeFiles/datachannel-client-benchmark.dir/parse_cl.cpp.o"
-  "client-benchmark"
-  "client-benchmark.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

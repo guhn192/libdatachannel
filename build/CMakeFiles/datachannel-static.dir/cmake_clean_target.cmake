@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libdatachannel-static.a"
+  "lib/libdatachannel-static.a"
 )

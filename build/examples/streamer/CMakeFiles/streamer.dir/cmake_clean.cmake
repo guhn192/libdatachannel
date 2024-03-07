@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "../../bin/streamer"
+  "../../bin/streamer.pdb"
   "CMakeFiles/streamer.dir/ArgParser.cpp.o"
   "CMakeFiles/streamer.dir/dispatchqueue.cpp.o"
   "CMakeFiles/streamer.dir/fileparser.cpp.o"
@@ -7,8 +9,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/streamer.dir/main.cpp.o"
   "CMakeFiles/streamer.dir/opusfileparser.cpp.o"
   "CMakeFiles/streamer.dir/stream.cpp.o"
-  "streamer"
-  "streamer.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

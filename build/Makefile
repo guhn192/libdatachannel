@@ -80,6 +80,28 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/hgh/projects/webrtc_encoding/libdatachannel/build/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+
+.PHONY : package_source/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -113,16 +135,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	/usr/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
+# Special rule for the target package
+package/fast: package
 
-.PHONY : edit_cache/fast
+.PHONY : package/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -209,6 +231,487 @@ datachannel/fast:
 .PHONY : datachannel/fast
 
 #=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
+
+#=============================================================================
+# Target rules for targets named ob_hello_orbbec
+
+# Build rule for target.
+ob_hello_orbbec: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ob_hello_orbbec
+.PHONY : ob_hello_orbbec
+
+# fast build rule for target.
+ob_hello_orbbec/fast:
+	$(MAKE) -f examples/c/Sample-HelloOrbbec/CMakeFiles/ob_hello_orbbec.dir/build.make examples/c/Sample-HelloOrbbec/CMakeFiles/ob_hello_orbbec.dir/build
+.PHONY : ob_hello_orbbec/fast
+
+#=============================================================================
+# Target rules for targets named ob_sensor_control
+
+# Build rule for target.
+ob_sensor_control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ob_sensor_control
+.PHONY : ob_sensor_control
+
+# fast build rule for target.
+ob_sensor_control/fast:
+	$(MAKE) -f examples/c/Sample-SensorControl/CMakeFiles/ob_sensor_control.dir/build.make examples/c/Sample-SensorControl/CMakeFiles/ob_sensor_control.dir/build
+.PHONY : ob_sensor_control/fast
+
+#=============================================================================
+# Target rules for targets named ob_hot_plugin
+
+# Build rule for target.
+ob_hot_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ob_hot_plugin
+.PHONY : ob_hot_plugin
+
+# fast build rule for target.
+ob_hot_plugin/fast:
+	$(MAKE) -f examples/c/Sample-HotPlugin/CMakeFiles/ob_hot_plugin.dir/build.make examples/c/Sample-HotPlugin/CMakeFiles/ob_hot_plugin.dir/build
+.PHONY : ob_hot_plugin/fast
+
+#=============================================================================
+# Target rules for targets named ob_depth_work_mode
+
+# Build rule for target.
+ob_depth_work_mode: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ob_depth_work_mode
+.PHONY : ob_depth_work_mode
+
+# fast build rule for target.
+ob_depth_work_mode/fast:
+	$(MAKE) -f examples/c/Sample-DepthWorkMode/CMakeFiles/ob_depth_work_mode.dir/build.make examples/c/Sample-DepthWorkMode/CMakeFiles/ob_depth_work_mode.dir/build
+.PHONY : ob_depth_work_mode/fast
+
+#=============================================================================
+# Target rules for targets named ob_point_cloud
+
+# Build rule for target.
+ob_point_cloud: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ob_point_cloud
+.PHONY : ob_point_cloud
+
+# fast build rule for target.
+ob_point_cloud/fast:
+	$(MAKE) -f examples/c/Sample-PointCloud/CMakeFiles/ob_point_cloud.dir/build.make examples/c/Sample-PointCloud/CMakeFiles/ob_point_cloud.dir/build
+.PHONY : ob_point_cloud/fast
+
+#=============================================================================
+# Target rules for targets named ob_firmware_upgrade
+
+# Build rule for target.
+ob_firmware_upgrade: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ob_firmware_upgrade
+.PHONY : ob_firmware_upgrade
+
+# fast build rule for target.
+ob_firmware_upgrade/fast:
+	$(MAKE) -f examples/c/Sample-FirmwareUpgrade/CMakeFiles/ob_firmware_upgrade.dir/build.make examples/c/Sample-FirmwareUpgrade/CMakeFiles/ob_firmware_upgrade.dir/build
+.PHONY : ob_firmware_upgrade/fast
+
+#=============================================================================
+# Target rules for targets named ob_color_viewer
+
+# Build rule for target.
+ob_color_viewer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ob_color_viewer
+.PHONY : ob_color_viewer
+
+# fast build rule for target.
+ob_color_viewer/fast:
+	$(MAKE) -f examples/c/Sample-ColorViewer/CMakeFiles/ob_color_viewer.dir/build.make examples/c/Sample-ColorViewer/CMakeFiles/ob_color_viewer.dir/build
+.PHONY : ob_color_viewer/fast
+
+#=============================================================================
+# Target rules for targets named ob_depth_viewer
+
+# Build rule for target.
+ob_depth_viewer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ob_depth_viewer
+.PHONY : ob_depth_viewer
+
+# fast build rule for target.
+ob_depth_viewer/fast:
+	$(MAKE) -f examples/c/Sample-DepthViewer/CMakeFiles/ob_depth_viewer.dir/build.make examples/c/Sample-DepthViewer/CMakeFiles/ob_depth_viewer.dir/build
+.PHONY : ob_depth_viewer/fast
+
+#=============================================================================
+# Target rules for targets named ob_infrared_viewer
+
+# Build rule for target.
+ob_infrared_viewer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ob_infrared_viewer
+.PHONY : ob_infrared_viewer
+
+# fast build rule for target.
+ob_infrared_viewer/fast:
+	$(MAKE) -f examples/c/Sample-InfraredViewer/CMakeFiles/ob_infrared_viewer.dir/build.make examples/c/Sample-InfraredViewer/CMakeFiles/ob_infrared_viewer.dir/build
+.PHONY : ob_infrared_viewer/fast
+
+#=============================================================================
+# Target rules for targets named ob_net_device
+
+# Build rule for target.
+ob_net_device: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ob_net_device
+.PHONY : ob_net_device
+
+# fast build rule for target.
+ob_net_device/fast:
+	$(MAKE) -f examples/c/Sample-NetDevice/CMakeFiles/ob_net_device.dir/build.make examples/c/Sample-NetDevice/CMakeFiles/ob_net_device.dir/build
+.PHONY : ob_net_device/fast
+
+#=============================================================================
+# Target rules for targets named ob_double_infrared_viewer
+
+# Build rule for target.
+ob_double_infrared_viewer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ob_double_infrared_viewer
+.PHONY : ob_double_infrared_viewer
+
+# fast build rule for target.
+ob_double_infrared_viewer/fast:
+	$(MAKE) -f examples/c/Sample-DoubleInfraredViewer/CMakeFiles/ob_double_infrared_viewer.dir/build.make examples/c/Sample-DoubleInfraredViewer/CMakeFiles/ob_double_infrared_viewer.dir/build
+.PHONY : ob_double_infrared_viewer/fast
+
+#=============================================================================
+# Target rules for targets named OBHelloOrbbec
+
+# Build rule for target.
+OBHelloOrbbec: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBHelloOrbbec
+.PHONY : OBHelloOrbbec
+
+# fast build rule for target.
+OBHelloOrbbec/fast:
+	$(MAKE) -f examples/cpp/Sample-HelloOrbbec/CMakeFiles/OBHelloOrbbec.dir/build.make examples/cpp/Sample-HelloOrbbec/CMakeFiles/OBHelloOrbbec.dir/build
+.PHONY : OBHelloOrbbec/fast
+
+#=============================================================================
+# Target rules for targets named OBSensorControl
+
+# Build rule for target.
+OBSensorControl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBSensorControl
+.PHONY : OBSensorControl
+
+# fast build rule for target.
+OBSensorControl/fast:
+	$(MAKE) -f examples/cpp/Sample-SensorControl/CMakeFiles/OBSensorControl.dir/build.make examples/cpp/Sample-SensorControl/CMakeFiles/OBSensorControl.dir/build
+.PHONY : OBSensorControl/fast
+
+#=============================================================================
+# Target rules for targets named OBOBImuReader
+
+# Build rule for target.
+OBOBImuReader: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBOBImuReader
+.PHONY : OBOBImuReader
+
+# fast build rule for target.
+OBOBImuReader/fast:
+	$(MAKE) -f examples/cpp/Sample-ImuReader/CMakeFiles/OBOBImuReader.dir/build.make examples/cpp/Sample-ImuReader/CMakeFiles/OBOBImuReader.dir/build
+.PHONY : OBOBImuReader/fast
+
+#=============================================================================
+# Target rules for targets named OBDepthWorkMode
+
+# Build rule for target.
+OBDepthWorkMode: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBDepthWorkMode
+.PHONY : OBDepthWorkMode
+
+# fast build rule for target.
+OBDepthWorkMode/fast:
+	$(MAKE) -f examples/cpp/Sample-DepthWorkMode/CMakeFiles/OBDepthWorkMode.dir/build.make examples/cpp/Sample-DepthWorkMode/CMakeFiles/OBDepthWorkMode.dir/build
+.PHONY : OBDepthWorkMode/fast
+
+#=============================================================================
+# Target rules for targets named OBHotPlugin
+
+# Build rule for target.
+OBHotPlugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBHotPlugin
+.PHONY : OBHotPlugin
+
+# fast build rule for target.
+OBHotPlugin/fast:
+	$(MAKE) -f examples/cpp/Sample-HotPlugin/CMakeFiles/OBHotPlugin.dir/build.make examples/cpp/Sample-HotPlugin/CMakeFiles/OBHotPlugin.dir/build
+.PHONY : OBHotPlugin/fast
+
+#=============================================================================
+# Target rules for targets named OBFirmwareUpgrade
+
+# Build rule for target.
+OBFirmwareUpgrade: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBFirmwareUpgrade
+.PHONY : OBFirmwareUpgrade
+
+# fast build rule for target.
+OBFirmwareUpgrade/fast:
+	$(MAKE) -f examples/cpp/Sample-FirmwareUpgrade/CMakeFiles/OBFirmwareUpgrade.dir/build.make examples/cpp/Sample-FirmwareUpgrade/CMakeFiles/OBFirmwareUpgrade.dir/build
+.PHONY : OBFirmwareUpgrade/fast
+
+#=============================================================================
+# Target rules for targets named OBTransformation
+
+# Build rule for target.
+OBTransformation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBTransformation
+.PHONY : OBTransformation
+
+# fast build rule for target.
+OBTransformation/fast:
+	$(MAKE) -f examples/cpp/Sample-Transformation/CMakeFiles/OBTransformation.dir/build.make examples/cpp/Sample-Transformation/CMakeFiles/OBTransformation.dir/build
+.PHONY : OBTransformation/fast
+
+#=============================================================================
+# Target rules for targets named OBColorViewer
+
+# Build rule for target.
+OBColorViewer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBColorViewer
+.PHONY : OBColorViewer
+
+# fast build rule for target.
+OBColorViewer/fast:
+	$(MAKE) -f examples/cpp/Sample-ColorViewer/CMakeFiles/OBColorViewer.dir/build.make examples/cpp/Sample-ColorViewer/CMakeFiles/OBColorViewer.dir/build
+.PHONY : OBColorViewer/fast
+
+#=============================================================================
+# Target rules for targets named OBDepthViewer
+
+# Build rule for target.
+OBDepthViewer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBDepthViewer
+.PHONY : OBDepthViewer
+
+# fast build rule for target.
+OBDepthViewer/fast:
+	$(MAKE) -f examples/cpp/Sample-DepthViewer/CMakeFiles/OBDepthViewer.dir/build.make examples/cpp/Sample-DepthViewer/CMakeFiles/OBDepthViewer.dir/build
+.PHONY : OBDepthViewer/fast
+
+#=============================================================================
+# Target rules for targets named OBInfraredViewer
+
+# Build rule for target.
+OBInfraredViewer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBInfraredViewer
+.PHONY : OBInfraredViewer
+
+# fast build rule for target.
+OBInfraredViewer/fast:
+	$(MAKE) -f examples/cpp/Sample-InfraredViewer/CMakeFiles/OBInfraredViewer.dir/build.make examples/cpp/Sample-InfraredViewer/CMakeFiles/OBInfraredViewer.dir/build
+.PHONY : OBInfraredViewer/fast
+
+#=============================================================================
+# Target rules for targets named OBSyncAlignViewer
+
+# Build rule for target.
+OBSyncAlignViewer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBSyncAlignViewer
+.PHONY : OBSyncAlignViewer
+
+# fast build rule for target.
+OBSyncAlignViewer/fast:
+	$(MAKE) -f examples/cpp/Sample-SyncAlignViewer/CMakeFiles/OBSyncAlignViewer.dir/build.make examples/cpp/Sample-SyncAlignViewer/CMakeFiles/OBSyncAlignViewer.dir/build
+.PHONY : OBSyncAlignViewer/fast
+
+#=============================================================================
+# Target rules for targets named OBPointCloud
+
+# Build rule for target.
+OBPointCloud: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBPointCloud
+.PHONY : OBPointCloud
+
+# fast build rule for target.
+OBPointCloud/fast:
+	$(MAKE) -f examples/cpp/Sample-PointCloud/CMakeFiles/OBPointCloud.dir/build.make examples/cpp/Sample-PointCloud/CMakeFiles/OBPointCloud.dir/build
+.PHONY : OBPointCloud/fast
+
+#=============================================================================
+# Target rules for targets named OBMultiDevice
+
+# Build rule for target.
+OBMultiDevice: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBMultiDevice
+.PHONY : OBMultiDevice
+
+# fast build rule for target.
+OBMultiDevice/fast:
+	$(MAKE) -f examples/cpp/Sample-MultiDevice/CMakeFiles/OBMultiDevice.dir/build.make examples/cpp/Sample-MultiDevice/CMakeFiles/OBMultiDevice.dir/build
+.PHONY : OBMultiDevice/fast
+
+#=============================================================================
+# Target rules for targets named OBMultiStream
+
+# Build rule for target.
+OBMultiStream: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBMultiStream
+.PHONY : OBMultiStream
+
+# fast build rule for target.
+OBMultiStream/fast:
+	$(MAKE) -f examples/cpp/Sample-MultiStream/CMakeFiles/OBMultiStream.dir/build.make examples/cpp/Sample-MultiStream/CMakeFiles/OBMultiStream.dir/build
+.PHONY : OBMultiStream/fast
+
+#=============================================================================
+# Target rules for targets named OBMultiDeviceSync
+
+# Build rule for target.
+OBMultiDeviceSync: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBMultiDeviceSync
+.PHONY : OBMultiDeviceSync
+
+# fast build rule for target.
+OBMultiDeviceSync/fast:
+	$(MAKE) -f examples/cpp/Sample-MultiDeviceSync/CMakeFiles/OBMultiDeviceSync.dir/build.make examples/cpp/Sample-MultiDeviceSync/CMakeFiles/OBMultiDeviceSync.dir/build
+.PHONY : OBMultiDeviceSync/fast
+
+#=============================================================================
+# Target rules for targets named OBNetDevice
+
+# Build rule for target.
+OBNetDevice: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBNetDevice
+.PHONY : OBNetDevice
+
+# fast build rule for target.
+OBNetDevice/fast:
+	$(MAKE) -f examples/cpp/Sample-NetDevice/CMakeFiles/OBNetDevice.dir/build.make examples/cpp/Sample-NetDevice/CMakeFiles/OBNetDevice.dir/build
+.PHONY : OBNetDevice/fast
+
+#=============================================================================
+# Target rules for targets named OBSaveToDisk
+
+# Build rule for target.
+OBSaveToDisk: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBSaveToDisk
+.PHONY : OBSaveToDisk
+
+# fast build rule for target.
+OBSaveToDisk/fast:
+	$(MAKE) -f examples/cpp/Sample-SaveToDisk/CMakeFiles/OBSaveToDisk.dir/build.make examples/cpp/Sample-SaveToDisk/CMakeFiles/OBSaveToDisk.dir/build
+.PHONY : OBSaveToDisk/fast
+
+#=============================================================================
+# Target rules for targets named OBDepthPrecisionViewer
+
+# Build rule for target.
+OBDepthPrecisionViewer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBDepthPrecisionViewer
+.PHONY : OBDepthPrecisionViewer
+
+# fast build rule for target.
+OBDepthPrecisionViewer/fast:
+	$(MAKE) -f examples/cpp/Sample-DepthPrecisionViewer/CMakeFiles/OBDepthPrecisionViewer.dir/build.make examples/cpp/Sample-DepthPrecisionViewer/CMakeFiles/OBDepthPrecisionViewer.dir/build
+.PHONY : OBDepthPrecisionViewer/fast
+
+#=============================================================================
+# Target rules for targets named OBCommonUsages
+
+# Build rule for target.
+OBCommonUsages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBCommonUsages
+.PHONY : OBCommonUsages
+
+# fast build rule for target.
+OBCommonUsages/fast:
+	$(MAKE) -f examples/cpp/Sample-CommonUsages/CMakeFiles/OBCommonUsages.dir/build.make examples/cpp/Sample-CommonUsages/CMakeFiles/OBCommonUsages.dir/build
+.PHONY : OBCommonUsages/fast
+
+#=============================================================================
+# Target rules for targets named OBDoubleInfraredViewer
+
+# Build rule for target.
+OBDoubleInfraredViewer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBDoubleInfraredViewer
+.PHONY : OBDoubleInfraredViewer
+
+# fast build rule for target.
+OBDoubleInfraredViewer/fast:
+	$(MAKE) -f examples/cpp/Sample-DoubleInfraredViewer/CMakeFiles/OBDoubleInfraredViewer.dir/build.make examples/cpp/Sample-DoubleInfraredViewer/CMakeFiles/OBDoubleInfraredViewer.dir/build
+.PHONY : OBDoubleInfraredViewer/fast
+
+#=============================================================================
+# Target rules for targets named OBPracticeSingleStream
+
+# Build rule for target.
+OBPracticeSingleStream: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBPracticeSingleStream
+.PHONY : OBPracticeSingleStream
+
+# fast build rule for target.
+OBPracticeSingleStream/fast:
+	$(MAKE) -f examples/cpp/Practice-SingleStream/CMakeFiles/OBPracticeSingleStream.dir/build.make examples/cpp/Practice-SingleStream/CMakeFiles/OBPracticeSingleStream.dir/build
+.PHONY : OBPracticeSingleStream/fast
+
+#=============================================================================
+# Target rules for targets named OBPracticeDepthStream
+
+# Build rule for target.
+OBPracticeDepthStream: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBPracticeDepthStream
+.PHONY : OBPracticeDepthStream
+
+# fast build rule for target.
+OBPracticeDepthStream/fast:
+	$(MAKE) -f examples/cpp/Practice-DepthStream/CMakeFiles/OBPracticeDepthStream.dir/build.make examples/cpp/Practice-DepthStream/CMakeFiles/OBPracticeDepthStream.dir/build
+.PHONY : OBPracticeDepthStream/fast
+
+#=============================================================================
+# Target rules for targets named OBPracticeDepthEncoding
+
+# Build rule for target.
+OBPracticeDepthEncoding: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBPracticeDepthEncoding
+.PHONY : OBPracticeDepthEncoding
+
+# fast build rule for target.
+OBPracticeDepthEncoding/fast:
+	$(MAKE) -f examples/cpp/Practice-DepthEncoding/CMakeFiles/OBPracticeDepthEncoding.dir/build.make examples/cpp/Practice-DepthEncoding/CMakeFiles/OBPracticeDepthEncoding.dir/build
+.PHONY : OBPracticeDepthEncoding/fast
+
+#=============================================================================
+# Target rules for targets named OBRecorder
+
+# Build rule for target.
+OBRecorder: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBRecorder
+.PHONY : OBRecorder
+
+# fast build rule for target.
+OBRecorder/fast:
+	$(MAKE) -f examples/cpp/Sample-Recorder/CMakeFiles/OBRecorder.dir/build.make examples/cpp/Sample-Recorder/CMakeFiles/OBRecorder.dir/build
+.PHONY : OBRecorder/fast
+
+#=============================================================================
+# Target rules for targets named OBPlayback
+
+# Build rule for target.
+OBPlayback: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OBPlayback
+.PHONY : OBPlayback
+
+# fast build rule for target.
+OBPlayback/fast:
+	$(MAKE) -f examples/cpp/Sample-Playback/CMakeFiles/OBPlayback.dir/build.make examples/cpp/Sample-Playback/CMakeFiles/OBPlayback.dir/build
+.PHONY : OBPlayback/fast
+
+#=============================================================================
 # Target rules for targets named usrsctp
 
 # Build rule for target.
@@ -261,19 +764,6 @@ srtp_driver/fast:
 .PHONY : srtp_driver/fast
 
 #=============================================================================
-# Target rules for targets named test_srtp
-
-# Build rule for target.
-test_srtp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_srtp
-.PHONY : test_srtp
-
-# fast build rule for target.
-test_srtp/fast:
-	$(MAKE) -f deps/libsrtp/CMakeFiles/test_srtp.dir/build.make deps/libsrtp/CMakeFiles/test_srtp.dir/build
-.PHONY : test_srtp/fast
-
-#=============================================================================
 # Target rules for targets named kernel_driver
 
 # Build rule for target.
@@ -298,6 +788,19 @@ replay_driver: cmake_check_build_system
 replay_driver/fast:
 	$(MAKE) -f deps/libsrtp/CMakeFiles/replay_driver.dir/build.make deps/libsrtp/CMakeFiles/replay_driver.dir/build
 .PHONY : replay_driver/fast
+
+#=============================================================================
+# Target rules for targets named test_srtp
+
+# Build rule for target.
+test_srtp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_srtp
+.PHONY : test_srtp
+
+# fast build rule for target.
+test_srtp/fast:
+	$(MAKE) -f deps/libsrtp/CMakeFiles/test_srtp.dir/build.make deps/libsrtp/CMakeFiles/test_srtp.dir/build
+.PHONY : test_srtp/fast
 
 #=============================================================================
 # Target rules for targets named rdbx_driver
@@ -2505,21 +3008,60 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... edit_cache"
+	@echo "... package_source"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
+	@echo "... package"
 	@echo "... datachannel-benchmark"
 	@echo "... datachannel-tests"
 	@echo "... datachannel-static"
 	@echo "... datachannel"
+	@echo "... uninstall"
+	@echo "... ob_hello_orbbec"
+	@echo "... ob_sensor_control"
+	@echo "... ob_hot_plugin"
+	@echo "... ob_depth_work_mode"
+	@echo "... ob_point_cloud"
+	@echo "... ob_firmware_upgrade"
+	@echo "... ob_color_viewer"
+	@echo "... ob_depth_viewer"
+	@echo "... ob_infrared_viewer"
+	@echo "... ob_net_device"
+	@echo "... ob_double_infrared_viewer"
+	@echo "... OBHelloOrbbec"
+	@echo "... OBSensorControl"
+	@echo "... OBOBImuReader"
+	@echo "... OBDepthWorkMode"
+	@echo "... OBHotPlugin"
+	@echo "... OBFirmwareUpgrade"
+	@echo "... OBTransformation"
+	@echo "... OBColorViewer"
+	@echo "... OBDepthViewer"
+	@echo "... OBInfraredViewer"
+	@echo "... OBSyncAlignViewer"
+	@echo "... OBPointCloud"
+	@echo "... OBMultiDevice"
+	@echo "... OBMultiStream"
+	@echo "... OBMultiDeviceSync"
+	@echo "... OBNetDevice"
+	@echo "... OBSaveToDisk"
+	@echo "... OBDepthPrecisionViewer"
+	@echo "... OBCommonUsages"
+	@echo "... OBDoubleInfraredViewer"
+	@echo "... OBPracticeSingleStream"
+	@echo "... OBPracticeDepthStream"
+	@echo "... OBPracticeDepthEncoding"
+	@echo "... OBRecorder"
+	@echo "... OBPlayback"
 	@echo "... usrsctp"
 	@echo "... srtp2"
 	@echo "... datatypes_driver"
 	@echo "... srtp_driver"
-	@echo "... test_srtp"
 	@echo "... kernel_driver"
 	@echo "... replay_driver"
+	@echo "... test_srtp"
 	@echo "... rdbx_driver"
 	@echo "... roc_driver"
 	@echo "... rtpw"

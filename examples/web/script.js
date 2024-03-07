@@ -14,11 +14,12 @@ const config = {
   iceServers : [ {
     urls : 'stun:stun.l.google.com:19302', // change to your STUN server
   } ],
+  bundlePolicy: 'max-bundle',
 };
 
 const localId = randomId(4);
 
-const url = `ws://localhost:8000/${localId}`;
+const url = `ws://34.118.151.189:8000/${localId}`;
 
 const peerConnectionMap = {};
 const dataChannelMap = {};

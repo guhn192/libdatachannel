@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/hgh/projects/webrtc_encoding/libdatachannel/build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,45 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/hgh/projects/webrtc_encoding/libdatachannel/include//")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE DIRECTORY FILES "/home/hgh/projects/webrtc_encoding/libdatachannel/misc//config//")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE DIRECTORY FILES "/home/hgh/projects/webrtc_encoding/libdatachannel/misc//config//")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/examples" TYPE DIRECTORY FILES "/home/hgh/projects/webrtc_encoding/libdatachannel/examples//")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/doc" TYPE DIRECTORY FILES "/home/hgh/projects/webrtc_encoding/libdatachannel/doc//")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/scripts" TYPE FILE FILES "/home/hgh/projects/webrtc_encoding/libdatachannel/misc//scripts//99-obsensor-libusb.rules")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/scripts" TYPE FILE FILES "/home/hgh/projects/webrtc_encoding/libdatachannel/misc//scripts//install_udev_rules.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE DIRECTORY FILES "/home/hgh/projects/webrtc_encoding/libdatachannel/lib/linux_x64/" FILES_MATCHING REGEX "/libOrbbecSDK\\.so$" REGEX "/libOrbbecSDK\\.so\\.[^/]*$" REGEX "/libOrbbecSDK\\.dylib$" REGEX "/libOrbbecSDK\\.[^/]*\\.dylib$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES
+    "/home/hgh/projects/webrtc_encoding/libdatachannel/build/OrbbecSDKConfig.cmake"
+    "/home/hgh/projects/webrtc_encoding/libdatachannel/build/OrbbecSDKConfigVersion.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdatachannel.so.0.20.1"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdatachannel.so.0.20"
@@ -50,8 +89,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/hgh/projects/webrtc_encoding/libdatachannel/build/libdatachannel.so.0.20.1"
-    "/home/hgh/projects/webrtc_encoding/libdatachannel/build/libdatachannel.so.0.20"
+    "/home/hgh/projects/webrtc_encoding/libdatachannel/build/lib/libdatachannel.so.0.20.1"
+    "/home/hgh/projects/webrtc_encoding/libdatachannel/build/lib/libdatachannel.so.0.20"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdatachannel.so.0.20.1"
@@ -73,7 +112,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdatachannel.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/hgh/projects/webrtc_encoding/libdatachannel/build/libdatachannel.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/hgh/projects/webrtc_encoding/libdatachannel/build/lib/libdatachannel.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdatachannel.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdatachannel.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -148,6 +187,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/cmake_install.cmake")
   include("/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/client/cmake_install.cmake")
   include("/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/client-benchmark/cmake_install.cmake")
   include("/home/hgh/projects/webrtc_encoding/libdatachannel/build/examples/media-receiver/cmake_install.cmake")

@@ -54,8 +54,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/datachannel-static.dir/src/track.cpp.o"
   "CMakeFiles/datachannel-static.dir/src/websocket.cpp.o"
   "CMakeFiles/datachannel-static.dir/src/websocketserver.cpp.o"
-  "libdatachannel-static.a"
-  "libdatachannel-static.pdb"
+  "lib/libdatachannel-static.a"
+  "lib/libdatachannel-static.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "../../../lib/libusrsctp.a"
+  "../../../lib/libusrsctp.pdb"
   "CMakeFiles/usrsctp.dir/netinet/sctp_asconf.c.o"
   "CMakeFiles/usrsctp.dir/netinet/sctp_auth.c.o"
   "CMakeFiles/usrsctp.dir/netinet/sctp_bsd_addr.c.o"
@@ -22,8 +24,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/usrsctp.dir/user_mbuf.c.o"
   "CMakeFiles/usrsctp.dir/user_recv_thread.c.o"
   "CMakeFiles/usrsctp.dir/user_socket.c.o"
-  "libusrsctp.a"
-  "libusrsctp.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

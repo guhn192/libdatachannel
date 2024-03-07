@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "../../bin/answerer"
+  "../../bin/answerer.pdb"
   "CMakeFiles/datachannel-copy-paste-answerer.dir/answerer.cpp.o"
-  "answerer"
-  "answerer.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,1 +1,1 @@
-/usr/bin/cc -O3 -DNDEBUG   CMakeFiles/datachannel-copy-paste-capi-offerer.dir/offerer.c.o  -o offerer  -Wl,-rpath,/home/hgh/projects/webrtc_encoding/libdatachannel/build ../../libdatachannel.so.0.20.1 -pthread 
+/usr/bin/cc  -fPIC -O3 -O3 -DNDEBUG   CMakeFiles/datachannel-copy-paste-capi-offerer.dir/offerer.c.o  -o ../../bin/offerer  -Wl,-rpath,/home/hgh/projects/webrtc_encoding/libdatachannel/build/lib ../../lib/libdatachannel.so.0.20.1 -pthread 

@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "../../bin/tests"
+  "../../bin/tests-1.3.4"
+  "../../bin/tests.pdb"
   "CMakeFiles/juice-tests.dir/test/base64.c.o"
   "CMakeFiles/juice-tests.dir/test/bind.c.o"
   "CMakeFiles/juice-tests.dir/test/conflict.c.o"
@@ -12,9 +15,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/juice-tests.dir/test/stun.c.o"
   "CMakeFiles/juice-tests.dir/test/thread.c.o"
   "CMakeFiles/juice-tests.dir/test/turn.c.o"
-  "tests"
-  "tests-1.3.4"
-  "tests.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

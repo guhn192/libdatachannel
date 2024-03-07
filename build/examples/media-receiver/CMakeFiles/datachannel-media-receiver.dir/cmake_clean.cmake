@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "../../bin/media-receiver"
+  "../../bin/media-receiver.pdb"
   "CMakeFiles/datachannel-media-receiver.dir/main.cpp.o"
-  "media-receiver"
-  "media-receiver.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

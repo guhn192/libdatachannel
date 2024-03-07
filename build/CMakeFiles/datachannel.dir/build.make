@@ -833,81 +833,81 @@ datachannel_OBJECTS = \
 # External object files for target datachannel
 datachannel_EXTERNAL_OBJECTS =
 
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/candidate.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/channel.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/configuration.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/datachannel.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/description.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/mediahandler.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/global.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/message.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/peerconnection.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/rtcpreceivingsession.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/track.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/websocket.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/websocketserver.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/rtppacketizationconfig.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/rtcpsrreporter.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/rtppacketizer.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/h264rtppacketizer.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/h264rtpdepacketizer.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/nalunit.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/h265rtppacketizer.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/h265nalunit.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/av1rtppacketizer.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/rtcpnackresponder.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/rtp.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/capi.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/plihandler.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/certificate.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/channel.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/datachannel.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/dtlssrtptransport.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/dtlstransport.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/icetransport.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/init.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/peerconnection.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/logcounter.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/sctptransport.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/threadpool.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/tls.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/track.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/utils.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/processor.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/sha.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/pollinterrupter.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/pollservice.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/http.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/httpproxytransport.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/tcpserver.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/tcptransport.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/tlstransport.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/transport.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/verifiedtlstransport.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/websocket.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/websocketserver.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/wstransport.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/wshandshake.cpp.o
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/build.make
-libdatachannel.so.0.20.1: deps/usrsctp/usrsctplib/libusrsctp.a
-libdatachannel.so.0.20.1: deps/libsrtp/libsrtp2.a
-libdatachannel.so.0.20.1: /usr/lib/x86_64-linux-gnu/libssl.so
-libdatachannel.so.0.20.1: deps/libjuice/libjuice-static.a
-libdatachannel.so.0.20.1: /usr/lib/x86_64-linux-gnu/libcrypto.so
-libdatachannel.so.0.20.1: /usr/lib/x86_64-linux-gnu/libcrypto.so
-libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking CXX shared library libdatachannel.so"
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/candidate.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/channel.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/configuration.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/datachannel.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/description.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/mediahandler.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/global.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/message.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/peerconnection.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/rtcpreceivingsession.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/track.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/websocket.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/websocketserver.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/rtppacketizationconfig.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/rtcpsrreporter.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/rtppacketizer.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/h264rtppacketizer.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/h264rtpdepacketizer.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/nalunit.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/h265rtppacketizer.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/h265nalunit.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/av1rtppacketizer.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/rtcpnackresponder.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/rtp.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/capi.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/plihandler.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/certificate.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/channel.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/datachannel.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/dtlssrtptransport.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/dtlstransport.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/icetransport.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/init.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/peerconnection.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/logcounter.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/sctptransport.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/threadpool.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/tls.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/track.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/utils.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/processor.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/sha.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/pollinterrupter.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/pollservice.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/http.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/httpproxytransport.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/tcpserver.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/tcptransport.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/tlstransport.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/transport.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/verifiedtlstransport.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/websocket.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/websocketserver.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/wstransport.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/src/impl/wshandshake.cpp.o
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/build.make
+lib/libdatachannel.so.0.20.1: lib/libusrsctp.a
+lib/libdatachannel.so.0.20.1: lib/libsrtp2.a
+lib/libdatachannel.so.0.20.1: /usr/lib/x86_64-linux-gnu/libssl.so
+lib/libdatachannel.so.0.20.1: lib/libjuice-static.a
+lib/libdatachannel.so.0.20.1: /usr/lib/x86_64-linux-gnu/libcrypto.so
+lib/libdatachannel.so.0.20.1: /usr/lib/x86_64-linux-gnu/libcrypto.so
+lib/libdatachannel.so.0.20.1: CMakeFiles/datachannel.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hgh/projects/webrtc_encoding/libdatachannel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking CXX shared library lib/libdatachannel.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/datachannel.dir/link.txt --verbose=$(VERBOSE)
-	$(CMAKE_COMMAND) -E cmake_symlink_library libdatachannel.so.0.20.1 libdatachannel.so.0.20 libdatachannel.so
+	$(CMAKE_COMMAND) -E cmake_symlink_library lib/libdatachannel.so.0.20.1 lib/libdatachannel.so.0.20 lib/libdatachannel.so
 
-libdatachannel.so.0.20: libdatachannel.so.0.20.1
-	@$(CMAKE_COMMAND) -E touch_nocreate libdatachannel.so.0.20
+lib/libdatachannel.so.0.20: lib/libdatachannel.so.0.20.1
+	@$(CMAKE_COMMAND) -E touch_nocreate lib/libdatachannel.so.0.20
 
-libdatachannel.so: libdatachannel.so.0.20.1
-	@$(CMAKE_COMMAND) -E touch_nocreate libdatachannel.so
+lib/libdatachannel.so: lib/libdatachannel.so.0.20.1
+	@$(CMAKE_COMMAND) -E touch_nocreate lib/libdatachannel.so
 
 # Rule to build all files generated by this target.
-CMakeFiles/datachannel.dir/build: libdatachannel.so
+CMakeFiles/datachannel.dir/build: lib/libdatachannel.so
 
 .PHONY : CMakeFiles/datachannel.dir/build
 

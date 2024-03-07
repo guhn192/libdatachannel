@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
+  "../../bin/rdbx_driver"
+  "../../bin/rdbx_driver.pdb"
   "CMakeFiles/rdbx_driver.dir/test/getopt_s.c.o"
   "CMakeFiles/rdbx_driver.dir/test/rdbx_driver.c.o"
   "CMakeFiles/rdbx_driver.dir/test/ut_sim.c.o"
-  "rdbx_driver"
-  "rdbx_driver.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

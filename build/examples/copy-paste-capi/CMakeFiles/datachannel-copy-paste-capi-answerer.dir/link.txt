@@ -1,1 +1,1 @@
-/usr/bin/cc -O3 -DNDEBUG   CMakeFiles/datachannel-copy-paste-capi-answerer.dir/answerer.c.o  -o answerer  -Wl,-rpath,/home/hgh/projects/webrtc_encoding/libdatachannel/build ../../libdatachannel.so.0.20.1 -pthread 
+/usr/bin/cc  -fPIC -O3 -O3 -DNDEBUG   CMakeFiles/datachannel-copy-paste-capi-answerer.dir/answerer.c.o  -o ../../bin/answerer  -Wl,-rpath,/home/hgh/projects/webrtc_encoding/libdatachannel/build/lib ../../lib/libdatachannel.so.0.20.1 -pthread 
